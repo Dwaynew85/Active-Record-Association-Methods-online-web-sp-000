@@ -13,4 +13,4 @@ class Song < ActiveRecord::Base
     Artist.find_by(name: "Drake") ? drake = Artist.find_by(name: "Drake") : drake = Artist.new(name: "Drake")
     drake.songs << self
   end
-end #Artist.find_by(name: "Drake")
+end
