@@ -9,13 +9,13 @@ task :console do
   Pry.start
 end
 
-task :add_associatiosn do 
-  drake = Artist.new(name: "Drake") 
+task :add_associatiosn do
+  drake = Artist.new(name: "Drake")
   adele = Artist.new(name: "Adele")
   pop = Genre.new(name: "Pop")
   rnb = Genre.new(name: "RnB")
   passion = Genre.new(name: "Passion")
-  hello = Song.new(name: "Hello") 
+  hello = Song.new(name: "Hello")
   rolling = Song.new(name: "Rolling In The Deep")
   goodbye = Song.new(name: "Goodbye")
   bling = Song.new(name: "Hotline Bling")
@@ -33,5 +33,5 @@ task :add_associatiosn do
   passion.songs << rolling
   rnb.songs << feelings
   rnb.songs << goodbye
-end 
+end
   
